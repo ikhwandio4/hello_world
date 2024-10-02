@@ -7,7 +7,7 @@
 
 1: Membuat Project Flutter Baru
 
-![screnshoot hello_world](build/images/01.png)
+![screnshoot hello_world](/images/01.png)
 
 Praktikum 4: Menerapkan Widget Dasar
 
@@ -59,9 +59,26 @@ Contoh penggunaan TextField widget adalah sebagai berikut:
 
 2. Selesaikan Praktikum 2 dan Anda wajib menjalankan aplikasi hello_world pada perangkat fisik (device Android/iOS) agar Anda mempunyai pengalaman untuk menghubungkan ke perangkat fisik. Capture hasil aplikasi di perangkat, lalu buatlah laporan praktikum pada file README.md.
 
+![alt text](images/08.png)
+
 
 3. Pada praktikum 5 mulai dari Langkah 3 sampai 6, buatlah file widget tersendiri di folder basic_widgets, kemudian pada file main.dart cukup melakukan import widget sesuai masing-masing langkah tersebut!
+
+![alt text](images/09.png)
+
+![alt text](images/10.png)
+
+![alt text](images/11.png)
+
+![alt text](images/12.png)
+
+![alt text](images/13.png)
+
+
+
 4. Selesaikan Codelabs: Your first Flutter app, lalu buatlah laporan praktikumnya dan push ke repository GitHub Anda!
+
+
 5. README.md berisi: capture hasil akhir tiap praktikum (side-by-side, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda.
 Kumpulkan berupa link repository/commit GitHub Anda kepada dosen yang telah disepakati!
 

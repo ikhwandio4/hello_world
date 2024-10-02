@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'basic_widgets/date_time_pickers.dart';
 import 'basic_widgets/scaffolt_widget.dart';
+import 'basic_widgets/dialog_widget.dart'; // Import dialog widget
+import 'basic_widgets/input_selection_widget.dart'; // Import input selection widget
 
 void main() {
   runApp(const MyApp());
@@ -9,7 +11,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -52,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const MyApp(),
+            const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
@@ -72,11 +73,32 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
-                      builder: (context) => const MyScaffoldWidget()),
+                  MaterialPageRoute(builder: (context) => const MyScaffoldWidget()),
                 );
               },
               child: const Text('Pilih Scaffold Widget'),
+            ),
+            const SizedBox(height: 20),
+            // Button untuk navigasi ke Dialog Widget
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const MyLayout()), // Navigasi ke MyLayout dari dialog_widget.dart
+                );
+              },
+              child: const Text('Tampilkan Dialog'),
+            ),
+            const SizedBox(height: 20),
+            // Button untuk navigasi ke Input Selection Widget
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const MyInputWidget()), // Navigasi ke MyInputWidget dari input_selection_widget.dart
+                );
+              },
+              child: const Text('Tampilkan Input Selection'),
             ),
           ],
         ),
