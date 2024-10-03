@@ -78,6 +78,10 @@ Contoh penggunaan TextField widget adalah sebagai berikut:
 
 4. Selesaikan Codelabs: Your first Flutter app, lalu buatlah laporan praktikumnya dan push ke repository GitHub Anda!
 
+link fisrt flutter app:Readme.md
+
+https://github.com/ikhwandio4/flutter_application
+
 
 5. README.md berisi: capture hasil akhir tiap praktikum (side-by-side, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda.
 Kumpulkan berupa link repository/commit GitHub Anda kepada dosen yang telah disepakati!
